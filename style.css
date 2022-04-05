@@ -73,20 +73,23 @@ div section {
     font-size: 15px;
 }
 
-@media (min-width: 401px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1126px) {
     main {
         flex-wrap: wrap;
     }
     section {
         width: 100%;
     }
-}
-
-@media (min-width: 1001px) {
-
-    section {
+    main .container {
+        padding-right: 0px;
+    }
+    .container-2 {
         width: 100%;
     }
+    .text-p-3 {
+        padding-top: 15px;
+    }
 }
+
 
 
